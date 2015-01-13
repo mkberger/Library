@@ -1,4 +1,4 @@
-# Library of tools
+# Library
 ## Java
 - class definition & main instance / arguments
 - makefile
