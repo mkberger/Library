@@ -5,4 +5,8 @@
 - makefile
 
 ## C++
+- class definition & main instance / arguments
+- makefile
 
+## To do :
+- open / read / store / close file
