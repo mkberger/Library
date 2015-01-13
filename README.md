@@ -1,5 +1,5 @@
 # Library of tools
 ## Java
--class definition & main instance / arguments
--makefile
+- class definition & main instance / arguments
+- makefile
 ## C++
