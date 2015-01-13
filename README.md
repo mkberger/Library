@@ -10,3 +10,5 @@
 
 ## To do :
 - open / read / store / close file
+- break down projects
+- interview questions
