@@ -1,5 +1,5 @@
 #ifndef CPP_CLASS_H
-#define CLASS_H
+#define CPP_CLASS_H
 
 #include "OtherCppClass.h"
 
