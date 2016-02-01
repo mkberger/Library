@@ -7,9 +7,6 @@ using namespace std;
 
 
 int main(){
-    // mkberger
-    double positive_counter, negative_counter, zero_counter;
-    //
     int n;
     cin >> n;
     vector<int> arr(n);
@@ -17,6 +14,7 @@ int main(){
        cin >> arr[arr_i];
     }
     // mkberger
+    double positive_counter, negative_counter, zero_counter;
     for (auto x : arr)
     {
         if (x < 0) negative_counter++;
