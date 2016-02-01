@@ -27,5 +27,6 @@ public class Solution {
             difference += (primary_val - secondary_val);
         }
         System.out.println(Math.abs(difference));
+        //
     }
 }
