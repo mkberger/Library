@@ -17,10 +17,7 @@ Node* Insert(Node *head,int data)
     add->next = nullptr;
     curr = head;
     if(head==nullptr) return add;
-    while(curr->next != nullptr)
-    {
-        curr = curr->next;
-    }
+    while(curr->next != nullptr) curr = curr->next;
     curr->next = add;
     return head;
     //
