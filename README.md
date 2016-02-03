@@ -8,7 +8,8 @@
 - class definition & main instance / arguments
 - makefile
 
-## To do :
-- open / read / store / close file
-- break down projects
-- interview questions
+## Arrays
+
+## Lists
+
+## Trees
