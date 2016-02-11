@@ -19,7 +19,6 @@
 HackerRank : 
 Data Structures 
 	Balanced Trees
-	Stacks
 	Queues
 	Heap
 	Disjoint Set
@@ -63,4 +62,4 @@ ajax
 
 https://leetcode.com/problemset/algorithms/
 
-***Review 281***
+***Review 281 & 388***
