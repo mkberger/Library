@@ -3,6 +3,8 @@
 ## C++
 - Class definition & main instance / arguments
 - Makefile
+- Calculate median dynamically as values are added using priority queues
+- Find maximum element in a 'stack' using deque
 
 ## Java
 - Class definition & main instance / arguments
@@ -10,10 +12,6 @@
 
 ## Python
 - Dictionary
-
-## Algorithms
-- Calculate median dynamically as values are added
-- Find maximum element in a 'stack' using deque
 
 ## Arrays
 - Calculate diagonal difference
