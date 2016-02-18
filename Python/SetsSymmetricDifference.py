@@ -1,3 +1,4 @@
+# See SetsSymmetricDifference.png for problem definition
 raw_input()
 set1 = set(map(int,raw_input().split()))
 raw_input()
