@@ -1,4 +1,4 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
+# See Lists.png for problem description
 n = int(raw_input());
 L = [];
 for x in range(0, n):
