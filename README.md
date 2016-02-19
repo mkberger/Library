@@ -11,7 +11,13 @@
 - Makefile
 
 ## Python
+- XML parsing
 - Dictionary
+- List operations
+- List comprehensions
+- Nested List
+- Sets symmetric difference
+- Tuples
 
 ## Arrays
 - Calculate diagonal difference
