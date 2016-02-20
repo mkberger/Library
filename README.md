@@ -56,4 +56,4 @@
 - Sorting : (Simple) Insertion, Selection, (Efficient) Merge, Heap, Quick, (Other) Bubble, Bucket/Counting
 - W3Schools : html, css, bootstrap, js, jquery, angularjs, sql, php, asp, xml, ajax
 - https://leetcode.com/problemset/algorithms/
-- ***Review EECS 281 & EECS 388***
+- ***Review EECS 281, 388, & 484***
