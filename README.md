@@ -11,7 +11,7 @@
 - Makefile
 
 ## Python
-- XML parsing
+- XML parsing (max depth, total score)
 - Dictionary
 - List operations
 - List comprehensions
