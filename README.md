@@ -1,28 +1,19 @@
 # Library
 
+## Arrays
+- Calculate diagonal difference
+- Find greatest 'hourglass' sum
+- Reverse array
+
 ## C++
 - Class definition & main instance / arguments
 - Makefile
 - Calculate median dynamically as values are added using priority queues
 - Find maximum element in a 'stack' using deque
 
-## Java
-- Class definition & main instance / arguments
-- Makefile
-
-## Python
-- XML parsing (max depth, total score)
-- Dictionary
-- List operations
-- List comprehensions
-- Nested List
-- Sets symmetric difference
-- Tuples
-
-## Arrays
-- Calculate diagonal difference
-- Find greatest 'hourglass' sum
-- Reverse array
+## Doubly Linked Lists
+- Insert node at position
+- Reverse nodes
 
 ## Lists
 - Detect cycle
@@ -35,9 +26,33 @@
 - Delete node at position
 - Get node value at position
 
-## Doubly Linked Lists
-- Insert node at position
-- Reverse nodes
+## Java
+- Class definition & main instance / arguments
+- Makefile
+
+## PHP
+- Advanced Arrays
+  - 2D
+  - Associated (map)
+  - Iteration
+- Functions
+  - Array push
+  - Array sort
+  - Random substring
+  - Rounding float
+  - User-defined function
+- Objects
+  - Class
+  - Inheritance
+
+## Python
+- XML parsing (max depth, total score)
+- Dictionary
+- List operations
+- List comprehensions
+- Nested List
+- Sets symmetric difference
+- Tuples
 
 ## Strings
 - Detect palindrome anagram
@@ -55,5 +70,6 @@
 ## TO DO
 - Sorting : (Simple) Insertion, Selection, (Efficient) Merge, Heap, Quick, (Other) Bubble, Bucket/Counting
 - W3Schools : html, css, bootstrap, js, jquery, angularjs, sql, php, asp, xml, ajax
+- Codecademy : command line, git, jQuery ... js, angularjs, java, sql analyzation
 - https://leetcode.com/problemset/algorithms/
-- ***Review EECS 281, 388, & 484***
+- ***Review EECS 388, & 484***
