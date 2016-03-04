@@ -5,6 +5,12 @@
 - Find greatest 'hourglass' sum
 - Reverse array
 
+## Command Line
+- Navigation : files and directories
+- Manipulation : copy, move and delete files
+- Redirection : I/O from files and programs
+- Environment : configuration
+
 ## C++
 - Class definition & main instance / arguments
 - Makefile
