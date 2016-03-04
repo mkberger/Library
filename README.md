@@ -73,9 +73,12 @@
 - Level order traversal
 - Pre order, in order, and post order traversal
 
+## Website matthewkberger.com
+- index.html
+- bootstrap library
+
 ## TO DO
 - Sorting : (Simple) Insertion, Selection, (Efficient) Merge, Heap, Quick, (Other) Bubble, Bucket/Counting
 - W3Schools : html, css, bootstrap, js, jquery, angularjs, sql, php, asp, xml, ajax
-- Codecademy : command line, git, jQuery ... js, angularjs, java, sql analyzation
+- Codecademy : git, jQuery ... js, angularjs, java, sql analyzation
 - https://leetcode.com/problemset/algorithms/
-- ***Review EECS 388, & 484***
