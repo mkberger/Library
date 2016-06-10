@@ -5,7 +5,7 @@
 using namespace std;
 
 template <typename T>
-void InsertionSort(vector<T>& sequence)
+void SelectionSort(vector<T>& sequence)
 {
 	T temp, key;
 	int key_index;
@@ -42,7 +42,7 @@ int main()
 	while (ss >> buffer) sequence.push_back(stoi(buffer));
 
 	// Sorts sequence using insertion sort
-	InsertionSort(sequence);
+	SelectionSort(sequence);
 
 	// Prints results
 	for (auto x : sequence) cout << x << " ";
