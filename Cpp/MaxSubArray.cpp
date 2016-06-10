@@ -80,7 +80,7 @@ int main()
 	// Stores sequence in vector of integers
 	while (ss >> buffer) sequence.push_back(stoi(buffer));
 
-	// Sorts sequence using insertion sort
+	// Identifies the maximum subarray indeces and sum
 	max_sub_array = FindMaxSubArray(sequence, 0, (sequence.size() - 1));
 
 	// Prints max crossing subarray
