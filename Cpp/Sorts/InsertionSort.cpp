@@ -4,10 +4,11 @@
 #include <vector>
 using namespace std;
 
-void InsertionSort(vector<int>& sequence)
+template <typename T>
+void InsertionSort(vector<T>& sequence)
 {
-	int key;
-	for (int i = 1; i < sequence.size(); i++)
+	T key;
+	for (unsigned int i = 1; i < sequence.size(); i++)
 	{
 		key = sequence[i];
 		int j = i - 1;
