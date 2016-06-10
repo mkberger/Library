@@ -16,6 +16,10 @@
 - Makefile
 - Calculate median dynamically as values are added using priority queues
 - Find maximum element in a 'stack' using deque
+- Sorting
+  - Insertion
+  - Selection
+  - Merge
 
 ## Doubly Linked Lists
 - Insert node at position
@@ -78,7 +82,7 @@
 - bootstrap library
 
 ## TO DO
-- Sorting : (Simple) Insertion, Selection, (Efficient) Merge, Heap, Quick, (Other) Bubble, Bucket/Counting
+- Sorting : (Efficient) Heap, Quick, (Other) Bubble, Bucket/Counting
 - W3Schools : html, css, bootstrap, js, jquery, angularjs, sql, php, asp, xml, ajax
 - Codecademy : git, jQuery ... js, angularjs, java, sql analyzation
 - https://leetcode.com/problemset/algorithms/
