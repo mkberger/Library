@@ -83,7 +83,7 @@
 - bootstrap library
 
 ## TO DO
-- Sorting : (Efficient) Quick, (Other) Bubble, Bucket/Counting
+- Sorting : (Other) Bubble, Bucket/Counting
 - W3Schools : html, css, bootstrap, js, jquery, angularjs, sql, php, asp, xml, ajax
 - Codecademy : git, jQuery ... js, angularjs, java, sql analyzation
 - https://leetcode.com/problemset/algorithms/
