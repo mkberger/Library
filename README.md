@@ -16,26 +16,27 @@
 - Makefile
 - Calculate median dynamically as values are added using priority queues
 - Find maximum element in a 'stack' using deque
+- LinkedList (Doubly-Linked)
+  - LinkedList & Node class definitions
+  - Add node (at specified position or default tail)
+  - Delete node (at specified position or default tail)
+  - Check equivalence of 2 lists
+  - Reverse list
+  - Overide operator=
 - Sorting
   - Insertion
   - Selection
   - Merge
   - Heap
 
-## Doubly Linked Lists
-- Insert node at position
-- Reverse nodes
-
 ## Lists
 - Detect cycle
 - Detect intersection
-- Reverse nodes
+- Get node value at position from tail
+- Insert node at position in Doubly-Linked List
 - Merge sorted lists
+- Print Singly-Linked List in reverse
 - Remove duplicate nodes
-- Check equivalence
-- Add node at position
-- Delete node at position
-- Get node value at position
 
 ## Java
 - Class definition & main instance / arguments
