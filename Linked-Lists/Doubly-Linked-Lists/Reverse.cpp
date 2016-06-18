@@ -1,4 +1,4 @@
-*
+/*
    Reverse a doubly linked list, input list may also be empty
    Node is defined as
    struct Node
