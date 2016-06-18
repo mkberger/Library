@@ -5,9 +5,7 @@ public:
 	T data;
 	Node<T>* next;
 	Node<T>* prev;
-	// default constructor
 	Node<T>();
-	// assignment constructor
 	Node<T>(T data, Node* prev, Node* next);
 };
 
