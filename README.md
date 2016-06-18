@@ -16,14 +16,14 @@
 - Makefile
 - Calculate median dynamically as values are added using priority queues
 - Find maximum element in a 'stack' using deque
-- #LinkedList (Doubly-Linked)
+# -LinkedList (Doubly-Linked)
   - LinkedList & Node class definitions
   - Add node (at specified position or default tail)
   - Delete node (at specified position or default tail)
   - Check equivalence of 2 lists
   - Reverse list
   - Overide operator=
-- #Sorting
+# -Sorting
   - Insertion
   - Selection
   - Merge
