@@ -1,4 +1,7 @@
 #include "LinkedList.h" 
+#include <limits.h>
+#include <iostream>
+#include <stdlib.h>  
 
 // node default constructor
 template <typename T>
