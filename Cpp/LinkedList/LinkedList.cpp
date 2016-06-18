@@ -49,9 +49,8 @@ void LinkedList<T>::addNode(T data, int n)
 	if (n < 0 || n > size) exit(EXIT_FAILURE);
 	int index = 0;
 	Node<T> * curr = new Node<T>();
-	Node<T> * prev = new Node<T>();
 	Node<T> * add = new Node<T>(data, nullptr, nullptr);
-	prev = curr = head;
+	curr = head;
 	if (n == 0)
 	{
 		head = add;
@@ -60,26 +59,15 @@ void LinkedList<T>::addNode(T data, int n)
 	}
 	else if(n == size)
 	{
-		while (curr->next != nullptr)
-		{
-			prev = curr;
-			curr = curr->next;
-		}
+		while (curr->next != nullptr) curr = curr->next;
 		curr->next = add;
 		add->prev = curr;
 	}
 	else
 	{
-		
-		while (index < n && curr->next != nullptr)
-		{
-			prev = curr;
-			curr = curr->next;
-			index++;
-		}
-
-		prev->next = add;
-		add->prev = prev;
+		while (index++ < n && curr->next != nullptr) curr = curr->next;
+		curr->prev->next = add;
+		add->prev = curr->prev;
 		add->next = curr;
 		curr->prev = add;
 	}
@@ -102,33 +90,21 @@ void LinkedList<T>::deleteNode(int n)
 	if (n < 0 || n > size) exit(EXIT_FAILURE);
 	int index = 0;
 	Node<T> * curr = new Node<T>();
-	Node<T> * prev = new Node<T>();
-	prev = curr = head;
+	curr = head;
 	if (n == 0)
 	{
 		head = head->next;
 	}
 	else if (n == size)
 	{
-		while (curr->next != nullptr)
-		{
-			prev = curr;
-			curr = curr->next;
-		}
-		prev->next = nullptr;
-
+		while (curr->next != nullptr) curr = curr->next;
+		curr->prev->next = nullptr;
 	}
 	else
 	{
-		while (index < n && curr->next != nullptr)
-		{
-			prev = curr;
-			curr = curr->next;
-			index++;
-		}
-
-		prev->next = curr->next;
-		curr->next->prev = prev;
+		while (index++ < n && curr->next != nullptr) curr = curr->next;
+		curr->prev->next = curr->next;
+		curr->next->prev = curr->prev;
 	}
 	size--;
 	return;
