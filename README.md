@@ -17,7 +17,7 @@
 - Calculate median dynamically as values are added using priority queues
 - Find maximum element in a 'stack' using deque
 
--LinkedList (Doubly-Linked)
+- LinkedList (Doubly-Linked)
   - LinkedList & Node class definitions
   - Add node (at specified position or default tail)
   - Delete node (at specified position or default tail)
@@ -25,11 +25,18 @@
   - Reverse list
   - Overide operator=
 
--Sorting
+- Sorting
   - Insertion
   - Selection
   - Merge
   - Heap
+  
+- Strings
+  - Reverse words in a string (in place)
+  - Reverse string (in place)
+  - Strip string of whitespace
+  - Remove duplicate chars in sequence
+  - Find first non-repeating char
 
 ## Lists
 - Detect cycle
