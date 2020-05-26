@@ -30,6 +30,8 @@
   - Selection
   - Merge
   - Heap
+  - Bubble
+  - Bucket
   
 - Strings
   - Reverse words in a string (in place)
