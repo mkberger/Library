@@ -1,10 +1,5 @@
 # Library
 
-## Arrays
-- Calculate diagonal difference
-- Find greatest 'hourglass' sum
-- Reverse array
-
 ## Command Line
 - Navigation : files and directories
 - Manipulation : copy, move and delete files
