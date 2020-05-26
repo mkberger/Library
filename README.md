@@ -97,3 +97,4 @@
 - Codecademy : git, jQuery, nodejs, angularjs, java, sql analyzation
 - https://leetcode.com/problemset/algorithms/
 - Timing (real time)
+- opencv, boost, opengl
