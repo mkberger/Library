@@ -1,10 +1,10 @@
 # Library
 
 ## Command Line
-- Navigation : files and directories
-- Manipulation : copy, move and delete files
-- Redirection : I/O from files and programs
 - Environment : configuration
+- Manipulation : copy, move and delete files
+- Navigation : files and directories
+- Redirection : I/O from files and programs
 
 ## C++
 - Class definition & main instance / arguments
