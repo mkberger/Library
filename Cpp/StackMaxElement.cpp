@@ -4,6 +4,7 @@
 #include <iostream>
 #include <algorithm>
 #include <queue>
+#include <limits.h>
 using namespace std;
 
 /*
@@ -20,7 +21,7 @@ int main() {
     bool update = true;
     int t;
     int arg, element, max;
-    max = 0;
+    max = INT_MIN;
     cin >> t;
     for(int i=0; i < t; i++)
     {
@@ -41,7 +42,7 @@ int main() {
         {
             if(update)
             {
-                max = -1;
+                max = INT_MIN;
                 for (auto it = stack_var.begin(); it != stack_var.end(); it++) if(max < (*it)) max = *it; 
               update = false;
             }
