@@ -9,8 +9,8 @@
 ## C++
 - Class definition & main instance / arguments
 - Makefile
+- Find maximum sub-array
 - Calculate median dynamically as values are added using priority queues
-- Find maximum element in a 'stack' using deque
 
 - LinkedList (Doubly-Linked)
   - LinkedList & Node class definitions
@@ -21,12 +21,12 @@
   - Overide operator=
 
 - Sorting
-  - Insertion
-  - Selection
-  - Merge
-  - Heap
   - Bubble
   - Bucket
+  - Heap
+  - Insertion
+  - Merge
+  - Selection
   
 - Strings
   - Reverse words in a string (in place)
@@ -35,17 +35,17 @@
   - Remove duplicate chars in sequence
   - Find first non-repeating char
 
-## Lists
+## Java
+- Class definition & main instance / arguments
+- Makefile
+
+## Linked Lists
 - Detect cycle
 - Detect intersection
 - Get node value at position from tail
 - Merge sorted lists
 - Print Singly-Linked List in reverse
 - Remove duplicate nodes
-
-## Java
-- Class definition & main instance / arguments
-- Makefile
 
 ## PHP
 - Advanced Arrays
