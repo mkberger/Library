@@ -84,9 +84,6 @@
 - Level order traversal
 - Pre order, in order, and post order traversal
 
-## Website : Online Portfolio
-- index.html
-- bootstrap library
 
 ## TO DO
 - W3Schools : html, css, bootstrap, js, jquery, angularjs, sql, php, asp, xml, ajax
