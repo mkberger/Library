@@ -86,8 +86,6 @@
 
 
 ## TO DO
-- W3Schools : html, css, bootstrap, js, jquery, angularjs, sql, php, asp, xml, ajax
-- Codecademy : git, jQuery, nodejs, angularjs, java, sql analyzation
+- freecodecamp : JavaScript Data Structures & Algorithms, Front End Development Libraries
 - https://leetcode.com/problemset/algorithms/
 - Timing (real time)
-- opencv, boost, opengl
