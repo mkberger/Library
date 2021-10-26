@@ -1,0 +1,318 @@
+<html id='main'>
+  <header id='header'>
+    <div id='header-img'>
+     <img src='https://runescape.wiki/images/3/3d/RuneScape_3_Logo.png?2c06f'>
+    </div>
+    <nav id='nav-bar'>
+      <div id='features-button'><a href='#features-section' class='nav-link'>Features</a></div>
+      <div id='how-button'><a href='#how-section' class='nav-link'>How It Works</a></div>
+      <div id='pricing-button'><a href='#pricing-section' class='nav-link'>Pricing</a></div>
+    </nav>
+  </header>
+  <div id='body'>
+    <section id='intro'>
+      <h2>Fractured Staff of Armadyl</h2>
+      <img src='https://runescape.wiki/images/3/3a/Fractured_Staff_of_Armadyl.png?50e28'>
+      <p>The  Strongest Magic Weapon on Gielinor!</p>
+      <form id='form' action='https://www.freecodecamp.com/email-submit'>
+        <input type='email' id='email' placeholder='Enter your email address' required><br>
+        <input id='submit' type='submit' value="Get Started">
+      </form>
+    </section>
+    <section id='features-section'>
+      <div id='materials' class='feature'>
+        <div id='materials-icon' class='icon'>
+          <img src='https://runescape.wiki/images/f/ff/Crafting.png?9b262'>
+        </div>
+        <div id='materials-description'>
+          <h2>Premium Materials</h2><br>
+          <p> Our staves are crafted using the toughest Goblin bones which are sourced locally. This will increase the longevity of your purchase.</p>
+        </div>
+      </div>
+      <div id='shipping' class='feature'>
+        <div id='shipping-icon' class='icon'>
+          <img 
+               src='https://runescape.wiki/images/d/da/Gnome_glider_old.png?9ab56'>
+        </div>
+        <div id='shipping-description'>
+         <h2>Fast Shipping</h2><br>
+          <p> We use Gnome Gliders to ship your staff as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+        </div>
+      </div>
+      <div id='quality' class='feature'>
+        <div id='quality-icon' class='icon'>
+          <img src='https://runescape.wiki/images/8/84/Smithing.png?65e82'>
+        </div>
+        <div id='quality-description'>
+          <h2>Quality Assurance</h2><br>
+          <p> For every purchase you make, we will ensure there are no damages or faults. We will check and test the pitch of your weapon on the same Goblins that supply the bones!</p>
+        </div>
+      </div>
+    </section>
+    <section id='how-section'>
+      <div id = 'video'>
+        <iframe width='420' height='315'
+          src='https://www.youtube.com/embed/cqNtih52t64'>
+        </iframe>
+    </div>
+    </section>
+    <section id='pricing-section'>
+      <div id='price-symbol' class='price-tag'>
+        <h4>Armadyl Symbol</h4>
+        <p class = 'amount'>1675M - 1700M</p>
+        <img src ='https://runescape.wiki/images/6/67/Fractured_Armadyl_symbol.png'></img><br>
+        <button class='buy-button'>Select</button>
+      </div>
+      <div id='price-gem' class='price-tag'>
+        <h4>Stabilisation Gem</h4>
+        <p class = 'amount'>2100M - 2147M</p>
+        <img src ='https://runescape.wiki/images/3/34/Fractured_stabilisation_gem.png'></img><br>
+        <button class='buy-button'>Select</button>
+      </div>
+      <div id='price-shaft' class='price-tag'>
+        <h4>Fractured Shaft</h4>
+        <p class = 'amount'>1322M - 2300M</p>
+        <img src ='https://runescape.wiki/images/6/67/Staff_of_Armadyl%27s_fractured_shaft.png'></img><br>
+        <button class="buy-button">Select</button>
+      </div>
+    </section>
+    <section id='footer'>
+      <div id='footer-bar'>
+        <a href="#" class='nav-link'>Privacy</a>&ensp;
+        <a href="#" class='nav-link' id='terms-link'>Terms</a>&ensp;
+        <a href="#" class='nav-link'>Contract</a><br>
+        <text id='footer-secondary-text'> 
+          Copyright Jamglex AFK RPG
+        </text>
+      </div>
+    </section>
+  </div>
+</html>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+    /* Base reset */
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    :root {
+      --primary-color: #515158;
+      --secondary-color: #151518;
+      --tertiary-color: darkorange;
+    }
+    #main {
+      background-color: var(--primary-color);
+      color: #f3f3f3;
+      font-size: 17px;
+      line-height: 40px;
+      font-family: 'Poppins', monospace;
+    }
+    #header {
+      top: 0px;
+      position: fixed;
+      display: grid;
+      width: 100vw;
+      height: 50px;
+      grid-template-columns: 60% 40%;
+      background-color: var(--secondary-color); 
+      padding-bottom: 10px;
+      padding-top: 5px;
+    }
+    #header-img img {
+      display: grid;
+      max-height: 50px;
+      width: auto;
+      margin-left: 10px;
+    }
+    #nav-bar {
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      font-size: 18px;
+      background-color: var(--secondary-color);
+    }
+    #nav-bar div{
+      display: grid;
+      justify-items: center;
+      align-items: center;
+    }
+    #body{
+      padding-top: 80px;
+    }
+    #intro {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    #intro img {
+      height: 90px;
+      width: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    #intro p {
+      margin-bottom: 20px;
+    }
+    #email, #submit {
+      border-radius: .2em;
+      width: 345px;
+      height: 40px;
+      text-align: center;
+    }
+    #submit{
+      text-transform: uppercase;
+      font-weight: bold;
+      cursor: pointer;
+      background-color:darkorange;
+      color: var(--primary-color);
+    }
+    #submit:hover {
+      background-color: orange;
+    }
+    #features-section {
+      display: grid;
+      height: 450px;
+      width: 80%;
+      max-width: 1200px;
+      grid-template-rows: 33% 33% 33%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 80px;
+    }
+    .feature {
+      display: grid;
+      grid-template-columns: 20% 80%;
+      line-height: 1.2;
+      text-align: justify;
+    }
+    p {
+      line-height: 24px;
+    }
+    .icon {
+      justify-self: center;
+      align-self: top;
+    }
+    .icon img {
+      height: 70px;
+      width: auto; 
+    }
+    #video{
+      padding-top: 80px;
+      text-align: center;
+    }
+    #how-section iframe{
+      border: 0px;
+      margin-bottom: 40px;
+    }
+    #pricing-section {
+      display: grid;
+      width: 70vw;
+      height: 300px;
+      grid-template-columns: 33% 33% 33%;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 40px;
+      padding-top: 80px;
+    }
+    .price-tag {
+      width: 300px;
+      margin: 0 auto;
+      border: 2px solid darkorange;
+      border-radius: 3px;
+    }
+    .price-tag h4 {
+      background-color: var(--secondary-color);
+      margin-top: 0px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      margin-bottom: 20px;
+    }
+    .price-tag img {
+      height: 60px;
+      width: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .amount {
+      font-weight: bold;
+    }
+    .buy-button {
+      width: 120px;
+      height: 40px;
+      font-weight: bold;
+      text-transform: uppercase;
+      cursor: pointer;
+      background-color: darkorange;
+      border-radius: .2em;
+      margin-bottom: 20px;
+    }
+    #footer {
+      margin-top: 80px;
+    }
+    #footer-bar {
+      height: 80px;
+      background-color: #151518;
+      margin-left: auto;
+      margin-right: auto;
+      line-height:40px;
+      text-align: right;
+      border-radius: .2em;
+      padding-right: 20px;
+    }
+    .nav-link {
+      color: #f3f3f3;
+      text-decoration: none;
+    }
+    .nav-link:hover {
+      color: orange;
+    }
+    #terms-link {
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+    #footer-secondary-text {
+      color: gray;
+    }
+    button:hover {
+    background-color: orange;
+    }
+    @media (max-width: 1313px) {
+      #pricing-section{
+        width: 913px;
+      }
+    }
+    @media (max-width: 949px) {
+      #header {
+        grid-template-columns: 100%;
+      }
+      #header-img img {
+        margin: 0 auto;
+      }
+      #body {
+        padding-top: 120px;
+      }
+      .feature {
+        grid-template-columns: 0% 100%;
+      }
+      .icon img {
+        visibility:hidden;
+      }
+      #pricing-section {
+        grid-template-columns: 100%;
+        width: 100vw;
+        margin: 0 auto;
+        height: 900px;
+      }
+      #footer-bar {
+        text-align: center;
+        padding-left: 40px;
+      }
+      #features-section, #video, #pricing-section{
+        padding-top: 105px;
+      }
+      #pricing-section{
+        grid-row-gap: 26px;
+      }
+    }
+</style>

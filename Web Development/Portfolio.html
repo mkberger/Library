@@ -1,0 +1,206 @@
+<html>
+    <header>
+      <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      crossorigin="anonymous"
+    />
+      <nav id='navbar'>
+        <a id='navlink-about' class='navlink' href='#welcome-section'>About</a>
+        <a id='navlink-work' class='navlink' href='#projects'>Work</a>
+        <a id='navlink-contact' class='navlink' href='#contact'>Contact</a>
+      </nav>
+    </header>
+    <body>
+      <section id='welcome-section'>
+        <h1>Hello, I am Berger</h1>
+        <p>an avid user & developer of technologies</p>
+      </section>
+      <section id='projects'>
+        <h1>These are some of my projects</h1>
+        <div id='projects-grid'>
+          <a class='project-tile' href='https://codepen.io/mkberger/full/XWabjKQ' target="_blank">
+            <img src='https://i.ibb.co/Wfbr36K/TechDoc.png' class='project-view'>
+            <p class='project-title'><span class="project-hilight">&lt; </span>Technical Document<span class="project-hilight"> &#47;&gt;</span></p>
+          </a>
+          <a class='project-tile' href='https://codepen.io/mkberger/full/eYRqRKm' target="_blank">
+            <img src='https://i.ibb.co/BKf635w/Survey.png' class='project-view'>
+            <p class='project-title'><span class="project-hilight">&lt; </span>Survey Form<span class="project-hilight"> &#47;&gt;</span></p>
+          </a>
+          <a class='project-tile' href='https://codepen.io/mkberger/full/dyzPYZy' target="_blank">
+            <img src='https://i.ibb.co/BN32SKb/Product.png' class='project-view'>
+            <p class='project-title'><span class="project-hilight">&lt; </span>Product Launch<span class="project-hilight"> &#47;&gt;</span></p>
+          </a>
+          <a class='project-tile' href='https://codepen.io/mkberger/full/yLXdGxb' target="_blank">
+            <img src='https://i.ibb.co/WsSc4sL/Tribute.png' class='project-view'>
+            <p class='project-title'><span class="project-hilight">&lt; </span>Tribute<span class="project-hilight"> &#47;&gt;</span></p>
+          </a>
+        </div>  
+      </section>
+      <section id='contact'>
+        <h1>Let's work together!</h1>
+        <ul id='contact-methods'>
+          <li class='contact-method' id='github'>
+            <i class="fab fa-github"></i>
+            <a id ='profile-link' href='https://github.com/mkberger/Library' target="_blank">Github</a>        
+          </li>
+          <li class='contact-method' id='email'>
+            <i class="fas fa-envelope-square"></i>
+            <a href='#'>Email</a>
+          </li>
+          <li class='contact-method' id='Phone'>
+            <i class="fas fa-phone-square"></i>
+            <a href='#'>Phone</a>
+          </li>
+        </ul>
+      </section>
+    </body>
+</html>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+    /* Custom properties/variables  */
+    :root {
+      --fall-red: #9A031E;
+      --fall-pink: #FF6161;
+      --fall-orange: #E35414;
+      --fall-blue: #175873;
+      --fall-purple: #5F0f40;
+      --fall-gray: #252427;
+      --off-white: #C0DCEC;
+      --offer-white: #D3D3D3;
+      --primary-color: var(--fall-blue);
+      --secondary-color: #2B7C85;
+      color: var(--off-white);
+      background: var(--secondary-color);
+      font-family: 'Poppins', monospace;
+      text-align:center;
+    }
+    /* Base reset */
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    #navbar {
+      top: 0px;
+      width: 100vw;
+      height: 68px;
+      line-height: 68px;
+      position: fixed;
+      background-color: var(--primary-color);
+      display: flex;
+      flex-direction: row;
+      justify-content: right;
+      box-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    }
+    .navlink {
+      font-size: 22px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    a  {
+      color: var(--off-white);
+      text-decoration: none;
+    }
+    .navlink:hover {
+      text-decoration: underline;
+    }
+    #navlink-contact {
+      margin-right: 36px;
+    }
+    #welcome-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100vh;
+      background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    }
+    #welcome-section h1 {
+      font-size: 46px;
+      margin-bottom: 0px;
+    }
+    #welcome-section p {
+      margin-top: 0px;
+      font-style: italic;
+      font-size: 1.2rem;
+      font-weight: 200;
+      margin-top: 10px;
+    }
+    #projects {
+      padding-top: 70px;
+      padding-bottom: 34px;
+      background-color: var(--secondary-color);
+      color: #C0DCEC;
+    }
+    #projects h1 {
+      font-size: 34px;
+      max-width: 524px;
+      margin: 0px auto;
+      margin-bottom: 34px;
+    }
+    #projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      grid-gap: 4rem;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      margin-bottom: 6rem;
+    }
+    .project-title {
+      padding-bottom: 5px;
+    }
+    .project-tile img {
+      object-fit: cover;
+      width: 100%;
+    }
+    .project-tile {
+      background-color: var(--primary-color);
+      box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+      border-radius: 2px;
+    }
+    .project-hilight {
+      color: var(--primary-color);
+      transition: color 0.4s ease-out;
+      font-size: 18px;
+    }
+
+    .project-tile:hover .project-hilight {
+      color: white;
+    }
+    #contact {
+      background-color: var(--fall-gray);
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      justify-content: center;
+    }
+    #contact h1 {
+      font-size: 45px;
+      margin-bottom: 60px;
+    }
+    #contact-methods {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      list-style-type: none;
+    }
+    .contact-method {
+      width: 130px;
+      line-height: 68px;
+      font-size: 22px;
+      transition: transform 0.3s ease-out;
+    }
+    .contact-method:hover {
+      transform: translateY(-8px);
+    }
+    @media (max-width: 1080px) {
+      #navbar {
+        justify-content: center;
+      }
+      #navlink-contact {
+        margin-right: 0px;
+      }
+    }
+</style>

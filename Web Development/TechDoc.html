@@ -1,0 +1,234 @@
+<html>
+    <div id='main' class='grid'>
+      <nav id='navbar' class='grid'>
+        <header>
+          <p>Responsive Web Design</p>
+        </header>
+        <div id='nav-links'>
+          <a href="#Introduction" class='nav-link'>Introduction</a><hr>
+          <a href="#Basic_HTML" class='nav-link'>Basic HTML/HTML5</a><hr>
+          <a href="#Basic_CSS" class='nav-link'>Basic CSS</a><hr>
+          <a href="#Applied_Visual_Design" class='nav-link'>Applied Visual Design</a><hr>
+          <a href="#Applied_Accessibility" class='nav-link'>Applied Accessibility</a><hr>
+          <a href="#Responsive_Principles" class='nav-link'>Responsive Web Design Principles</a><hr>
+          <a href="#CSS_Flexbox" class='nav-link'>CSS Flexbox</a><hr>
+          <a href="#CSS_Grid" class='nav-link'>CSS Grid</a><hr>
+        </div>
+      </nav>
+      <main id='main-doc'>
+        <section id='Introduction' class='main-section'>
+          <h1>Introduction</h1>
+          <p>While taking this course, I learned the languages used to build webpages: HTML for content, and CSS for design. In addition to basic design, I explored the best practices for accessibility, built web forms, and adapted to different screen sizes by utilizing Flexbox and Grid.</p>
+        </section>
+        <section id='Basic_HTML' class='main-section'>
+          <h1>Basic HTML and HTML5</h1>
+          <p>HTML uses a special syntax to describe the structure of a web page to a browser.</p>
+          <code>
+            &lthtml&gt<br>&emsp;&emsp;
+            &lt!-- An example of a simple html doc --&gt<br>&emsp;&emsp;
+            &ltbody&gt<br>&emsp;&emsp;&emsp;&emsp;
+            &lth1&gtHello World&lt/h1&gt<br>&emsp;&emsp;
+            &lt/body&gt<br>
+            &lt/html&gt
+          </code>
+          <p>HTML5 introduced many more descriptive tags, for example:</p>
+          <ul>
+            <li>main</li>
+            <li>header</li>
+            <li>footer</li>
+            <li>nav</li>
+            <li>video</li>
+            <li>article</li>
+            <li>section</li>
+          </ul>
+          <p>I worked with images, anchor elements, (un)ordered lists, and forms. Forms can be comprised of many elements, including:</p>
+          <ul>
+            <li>text</li>
+            <li>radio buttons</li>
+            <li>checkboxes</li>
+            <li>placeholder values</li>
+            <li>submit buttons</li>
+            <li>required fields</li>
+            <li>labels for</li>
+          </ul>
+        </section>
+        <section id='Basic_CSS' class='main-section'>
+          <h1>Basic CSS</h1>
+          <p>Cascading Style Sheets tell the browser how to display the content written in HTML. Styling options include color, font, size, spacing, etc.</p>
+          <p>Selectors are used to indicate which CSS rules apply to which HTML elements. Below are some examples of common, useful selectors (selecting by element, by .class, by #id, and by parent_type child_element. When using parent_type child_element selector, the first argument can be element, .class, or #id, while the second argument must be an element type.</p> 
+          <code>
+            h1 {<br>&emsp;&emsp;font-size: 24px;<br>}<br><br>
+            .class-name {<br>&emsp;&emsp;text-transform: uppercase;<br>}<br><br>
+            #id-name {<br>&emsp;&emsp;text-indent: 30px;<br>}<br><br>
+            p h1{<br>&emsp;&emsp;font-size: 20px;<br>}<br>
+          </code>
+          <p>The most dynamic tool that I learned in this section is the media query. Using media query, HTML variables' styles can be dependant on the conditions of the viewport's width or height. The example below details css rules that apply when the width of the viewport is less than 350px.</p>
+          <code>
+            @media (max-width: 350px) {<br>&emsp;&emsp;p {<br>&emsp;&emsp;&emsp;&emsp;/* css rules */<br>&emsp;&emsp;}<br>}
+          </code>
+        </section>
+        <section id='Applied_Visual_Design' class='main-section'>
+          <h1>Applied Visual Design</h1>
+          <p>Visual design is a combination of typography, color theory, graphics, animation, page layout, and more.</p>
+          <p>I learned how to manipulate the text-align property, width & height, bold/underline/italicize/strikethrough, text-transform, font-size, font-weight, line-height, etc.</p>
+        </section>
+        <section id='Applied_Accessibility' class='main-section'>
+          <h1>Applied Accessibility</h1>
+          <p>Accessibility refers to a UI that can be understood, navigated, and interacted with by a broad audience, including those with visual, auditory, mobility, or cognitive disabilities.</p>
+          <p>Some practices that improve accessiblity:</p>
+          <ul>
+            <li>image & audio have a text alternative</li>
+            <li>heading level reflects hierarchical relationships</li>
+            <li>div types are most descriptive</li>
+            <li>group content & caption into a figure</li>
+            <li>'label for' your form fields</li>
+            <li>fieldset for your radio buttons</li>
+            <li>use sufficient contrast</li>
+            <li>avoid colorblindness issues</li>
+            <li>utilize tabIndex for keyboard focus</li>
+            <li>give links meaningful link text</li>
+          </ul>
+        </section>
+        <section id='Responsive_Principles' class='main-section'>
+          <h1>Responsive Web Design Principles</h1>
+          <p>There are many devices that can access the web, and they come in all shapes and sizes. Responsive web design is the practice of designing flexible websites that can respond to different screen sizes, orientations, and resolutions.</p>
+          <p>Making images responsively scale is straightforward!</p>
+          <code>img {<br>&emsp;&emsp;max-width: 100%;<br>&emsp;&emsp;height: auto;<br>}</code>
+          <p>Scale down the height & width of a low-res img so that it renders well on hi-res screens.</p>
+          <p>Use viewport units to make typography responsize:</p>
+          <ul>
+            <li>vw (viewport width)</li>
+            <li>vh (viewport height)</li>
+            <li>vmin (viewport small axis)</li>
+            <li>vmax (viewport large axis)</li>
+            </u>
+        </section>  
+        <section id='CSS_Flexbox' class='main-section'>
+          <h1>CSS Flexbox</h1>
+          <p>Flexbox is a powerful, well-supported layout method that allows for ease in centering elements on the page and creating dynamic user interfaces that shrink and expand automatically.</p>
+          <p>Placing the CSS property 'display: flex;' on an element allows you to use other flex properties to build a responsive page.</p>
+          <code>#container {<br>&emsp;&emsp;display: flex;<br>}</code>
+          <p> One of these properties is 'flex-direction', which can have a value of 'row', 'column', 'row-reverse', or 'column-reverse'.</p>
+          <code>#container {<br>&emsp;&emsp;flex-direction: row;<br>}</code>
+          <p> I learned to justify or align both individual and groups of items along the main & cross axes.</p>
+          <code>#container {<br>&emsp;&emsp;align-items: center;<br>}</code>
+          <p>The flex-wrap property tells CSS to wrap items into multiple rows or columns. There are multiple different values for this property:</p>
+          <ul>
+            <li>nowrap: default setting, all items displayed on singular row or column</li>
+            <li>wrap: wraps columns left to right and rows top to bottom</li>
+            <li>wrap-reverse: wraps columns right to left and rows bottom to top</li>
+          </ul>
+          <p>The flex-shrink and flex-grow properties allow items to shrink/grow when a flex container is too small/large (the number taken as an argument specifies relative shrink/grow compared to other items). The flex-basis property specifies an initial size.</p>
+          <code>
+            #shrinks-more {<br>&emsp;&emsp;flex-shrink: 2;<br>}<br><br>
+            #shrinks-less {<br>&emsp;&emsp;flex-shrink: 1;<br>}
+          </code>
+          <p>Items in a container can be assigned an 'order' property, which informs CSS how to arrange the items in the container.</p>
+          <code>
+            #second-item {<br>&emsp;&emsp;order: 2;<br>}<br><br>
+            #first-item {<br>&emsp;&emsp;order: 1;<br>}
+          </code>
+        </section>
+        <section id='CSS_Grid' class='main-section'>
+          <h1>CSS Grid</h1>
+          <p>The CSS grid is a newer standard that makes it easy to build complex responsive layouts. It works by turning an HTML element into a grid, and lets you place child elements anywhere within. An element can be turned into a grid by setting its display property to grid.</p>
+          <code>#container {<br>&emsp;&emsp;display: grid;<br>}</code> 
+          <p>To define the structure of the grid, grid-template-rows or grid-template-columns is used. The arguments can be (mixed) in relative or absolute units. The following container has 5 columns. The first is as wide as its content, the second is 30px, the third is 20% of its container, and the fourth and fifth are 3/4 and 1/4 of the remaining space, respectively. Even the minmax() function can be used as this property value.</p>
+          <code>#container {<br>&emsp;&emsp;grid-template-columns: auto 30px 20% 3fr 1fr;<br>}</code> 
+          <p>Items can span multiple rows or columns by setting their grid-row or grid-column properties. The following snipet shows an item spanning columns 2-4, using the column lines 2-5 as arguments.</p>
+          <code>#wide-item {<br>&emsp;&emsp;grid-column: 2 / 5;<br>}</code>
+          <p>Similarly to flex displays, grid items can be justified or aligned, both in groups and individually, along the main and cross axes. The default value is stretch, but it accepts other value also:</p>
+          <ul>
+            <li>start</li>
+            <li>center</li>
+            <li>end</li>
+          </ul>
+          <p>Unlike flex displays, grids allow for items for span both rows and columns. A grid-template-areas can be defined, and later items assigned to areas.</p>
+          <code>
+            #container {
+            <br>&emsp;&emsp;grid-template-areas:
+            <br>&emsp;&emsp;&emsp;&emsp;"header header"
+            <br>&emsp;&emsp;&emsp;&emsp;"advert content"
+            <br>&emsp;&emsp;&emsp;&emsp;"advert content";<br>}<br><br>
+            #advert-item {<br>&emsp;&emsp;grid-area: advert;<br>}
+          </code>
+          <p>The repeat function can be used to specify the number of times a row or column should be repeated. This can be combined with the auto-fill and auto-fit functions, which automatically instert as many  rows or columns as possible depending on the size of the container & size of the items.</p>
+        </section>
+      </main>
+    </div>
+</html>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+    #main {
+      color: #f3f3f3;
+      font-family: 'Poppins', monospace;
+      background-color: #191719;
+      grid-template-columns: 330px 1fr;
+    }
+    .grid {
+      display: grid;
+    }
+    #navbar {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      grid-template-rows: 80px 1fr;
+    }
+    header {
+      text-align: center;
+      line-height: 40px;
+      font-size: 23px;
+      color: darkorange;
+    }
+    #nav-links {
+      overflow-y: scroll;
+      line-height: 40px;
+      padding-left: 30px;
+    }
+    .nav-link {
+      color: #f3f3f3;
+      text-decoration: none;
+    }
+    .nav-link:hover {
+      color: darkorange;
+    }
+    #main-doc {
+      padding-left: 40px;
+    }
+    .main-section h1 {
+      font-size: 26px;
+      font-weight: normal;
+    }
+    .main-section p {
+      margin-left: 20px;
+      margin-right: 50px;
+    }
+    .main-section ul {
+      margin-left: 50px;
+      margin-right: 50px;
+      color: #f3f3f3;
+    }
+    .main-section code {
+      display: flex;
+      line-height: 24px;
+      background-color: #252225;
+      border-radius: .3em;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      padding-top: 16px;
+      padding-left: 20px;
+      padding-bottom: 16px;
+      font-size: 14px;
+    }
+    @media (max-width: 811px) {
+      #main {
+        grid-template-columns: 100%;
+      }
+      #navbar {
+        position: relative;
+        height: 370px;
+      }
+    }
+</style>
