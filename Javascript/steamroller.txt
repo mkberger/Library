@@ -1,0 +1,13 @@
+function steamrollArray(arr) {
+  let flatArr = [];
+  return flattenArray(flatArr, arr);
+}
+
+function flattenArray(flatArr, arr) {
+  if(Array.isArray(arr))
+    for(let a in arr)
+      flattenArray(flatArr, arr[a]);
+  else 
+    flatArr.push(arr);
+  return flatArr;
+}

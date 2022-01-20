@@ -1,0 +1,25 @@
+function checkCashRegister(price, cash, cid) {
+  let drawerEnum = [1, 5, 10, 25, 100, 500, 1000, 2000, 10000];
+  let changeCents = (cash - price) * 100;
+  let drawerCents = 0;
+  let changeArray = [];
+  for(let i in cid){
+    drawerCents += (cid[i][1] * 100);
+  }
+  if(changeCents == drawerCents){
+    return {status: "CLOSED", change: cid};
+  }
+  for(let i = 8; i >= 0; i--){
+    let unitCents = drawerEnum[i];
+    let numUnits = Math.min(Math.floor(changeCents / unitCents), 
+    (cid[i][1] * 100 / unitCents)); 
+    if(numUnits){
+      changeCents -= unitCents * numUnits;
+      changeArray.push([cid[i][0], numUnits * unitCents / 100]);
+    }
+  }
+  if(changeCents){
+    return {status: "INSUFFICIENT_FUNDS", change: []};
+  }
+  return {status: "OPEN", change: changeArray};
+}

@@ -1,0 +1,8 @@
+function addTogether() {
+  let firstArg = arguments[0];
+  if(arguments.length < 2) 
+    return (typeof firstArg !== 'number') ? undefined : (function(nextArg){return (typeof nextArg === 'number') ? (firstArg + nextArg) : undefined;});
+  let secondArg = arguments[1];
+  if((typeof firstArg !== 'number') || (typeof secondArg !== 'number')) return undefined;
+  return (arguments[0] + arguments[1]);
+}

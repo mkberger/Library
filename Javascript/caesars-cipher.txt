@@ -1,0 +1,9 @@
+function rot13(str) {
+  let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  let regex = /[A-Z]/
+  let decoded = '';
+  for(let i in str){
+    decoded = decoded.concat((regex.test(str[i])) ? alphabet[((alphabet.indexOf(str[i]) + 13)%26)] : str[i]);
+  }
+  return decoded;
+}
