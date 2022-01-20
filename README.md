@@ -84,8 +84,13 @@
 - Level order traversal
 - Pre order, in order, and post order traversal
 
+## Web Development
+- Personal portfolio
+- Product landing
+- Technical documentation
+- Tribute
+- Survey
 
 ## TO DO
-- freecodecamp : JavaScript Data Structures & Algorithms, Front End Development Libraries
+- freecodecamp : Front End Development Libraries
 - https://leetcode.com/problemset/algorithms/
-- Timing (real time)
