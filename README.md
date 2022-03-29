@@ -83,6 +83,13 @@
 - Sets symmetric difference
 - Tuples
 
+## React
+- Calculator
+- Clock (25 + 5, Session + Break)
+- Drum Machine
+- Markdown Previewer
+- Random Quote Generator
+
 ## Strings
 - Detect palindrome anagram
 - Detect pangram
@@ -104,5 +111,5 @@
 - Survey
 
 ## TO DO
-- freecodecamp : Front End Development Libraries
+- CompTIA ITF+, A+ Core 1, A+ Core 2
 - https://leetcode.com/problemset/algorithms/
