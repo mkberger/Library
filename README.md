@@ -113,5 +113,5 @@
 - Survey
 
 ## TO DO
-- CompTIA ITF+, A+ Core 1, A+ Core 2
+- A+ Core 1, A+ Core 2
 - https://leetcode.com/problemset/algorithms/
