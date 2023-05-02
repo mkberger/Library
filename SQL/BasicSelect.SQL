@@ -13,7 +13,7 @@ SELECT * FROM CITY WHERE CITY.COUNTRYCODE = 'JPN';
 -- https://www.hackerrank.com/challenges/japanese-cities-name/problem
 SELECT CITY.NAME FROM CITY WHERE CITY.COUNTRYCODE = 'JPN';
 
--- https://www.hackerrank.com/challenges/weather-observation-station-1/problem?
+-- https://www.hackerrank.com/challenges/weather-observation-station-1/problem
 SELECT STATION.CITY, STATION.STATE FROM STATION;
 
 -- https://www.hackerrank.com/challenges/weather-observation-station-3/problem
